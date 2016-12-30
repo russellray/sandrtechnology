@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+h1 {
+    color: #0abbff;
+    font-weight: 800;
+}
+
+h1.header {
+    color: #0abbff;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #0abbff;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h3.email-confirm {
+    font-weight: 600;
+    font-style: italic;
+}
+
+h4 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+}
+
+p {
+    font-weight: 400;
+    padding: 10px;
+}
+
+p.slogan-text {
+    font-weight: 600;
+    color: #eee;
+    font-style: italic;
+    padding: 10px;
+}
+
+p.navbar-text {
+    padding: 0px;
+}
+
+p.footer {
+    font-color: #eee;
+    font-size: 10px;
+    padding: 10px;
+}
+
+ul {
+    text-align: left;
+}
+
+.intro-section {
+    text-align: center;
+    background: #0abbff;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.logo-image {
+    padding-top: 75px;
+    margin-bottom: 15px;
+}
+
+.services-section {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+}
+
+.service-bubble {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}
+
+.consultation-button {
+    margin-top: 45px;
+}
+
+.about-section {
+    text-align: center;
+    background: #eee;
+    padding: 50px;
+}
+
+.about-us-section {
+    margin-bottom: 45px;
+    text-align: left;
+}
+
+.contact-section {
+    text-align: center;
+    background: #fff;
+    padding: 50px;
+}
+
+.form-bottom {
+    padding: 25px 25px 30px 25px;
+    text-align: left;
+}
+ 
+.form-bottom form textarea {
+}
+ 
+.form-bottom form .input-error {
+    border-color: #d05a4e;
+}
+
+.phone-info {
+    margin-bottom: 60px;
+}
+
+.footer {
+    margin-bottom: 0px;
+}
